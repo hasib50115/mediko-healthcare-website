@@ -1,7 +1,7 @@
 # Live Site:
 live site will be here
 
-## Site name: Mediko
+# Site name: Mediko
 
 ## Features: 
 * All the information about Mediko and Contact numbers you will get from the mediko website.
