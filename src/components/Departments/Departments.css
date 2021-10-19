@@ -1,0 +1,57 @@
+/* Title Bar styles start  */
+.title-bar{
+    height: 150px;
+    background-color: #0CB8B6;
+    margin-bottom: 70px;
+}
+.depart-title{
+    width: 80%;
+    margin: auto;
+    text-align: left;
+}
+.title{
+    color: #ffffff;
+    font-size: 40px;
+    position: relative;
+    top: 45px;
+}
+
+/* Department container/blog styles start  */
+.dept{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 100px;
+    padding: 20px;
+}
+.dept-img img{
+    width: 80%;
+    height: auto;
+}
+.dept-text{
+    width: 600px;
+    text-align: left;
+    padding-left: 100px 0px 70px 0px;
+}
+
+/* Mobile Device Responsiveness  */
+@media only screen and (max-width: 767px) {
+    .dept {
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto;
+        margin: 0px;
+    }
+    .dept-text{
+        width: 80%;
+        text-align: justify;
+        margin: auto;
+        /* margin: auto; */
+    }
+    .dept-img img{
+        width: 300px;
+        margin: auto;
+        padding: 15px;
+    }
+  }

@@ -1,0 +1,8 @@
+[
+    {"id": 1, "name": "PEDIATRIC", "description" : "2500 Bdt.","img": "https://ernearmetx.com/wp-content/uploads/2020/11/highest-quality-pediatric-care-at-er-near-me-300x232.png"},
+    {"id": 2, "name": "DENTAL", "description" : "2500 Bdt.","img": "https://isikdis.com.tr/wp-content/uploads/2021/04/Konservatif.jpg"},
+    {"id": 3, "name": "COSMETIC", "description" : "2500 Bdt.","img": "https://dcd2fe06bf58808e48f5-f58c1372aeba1bc7277f53e7c981d121.ssl.cf5.rackcdn.com/1eee4170101d4cd5bc2125936a92669e_48-500x309-new.png"},
+    {"id": 4, "name": "GENERAL HEALTHCARE", "description" : "2500 Bdt.","img": "https://www.daymarcollege.edu/sites/default/files/nurses-helping-older-patients.jpg"},
+    {"id": 5, "name": "ORTHOPEDICS", "description" : "2500 Bdt.","img": "https://www.chaudharyhospital.in/wp-content/uploads/2021/02/Orthopedics.png"},
+    {"id": 6, "name": "SCREENING", "description" : "2500 Bdt.","img": "https://thumbor.forbes.com/thumbor/fit-in/1200x0/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F60b79dba4fdbed4d577dd319%2F0x0.jpg"}
+]
