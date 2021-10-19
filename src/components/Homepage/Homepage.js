@@ -34,7 +34,7 @@ const Homepage = () => {
                         <h2>What Services</h2>
                         <h1 className="logo">Mediko Offers?</h1>
                         <br/>
-                        <p>All the doctors & nurses, and other sutffs</p>
+                        <p>All the doctors & nurses, and  other sutffs</p>
                         <p>are passionate aubout their works. </p>
                     </div>
                 </div>

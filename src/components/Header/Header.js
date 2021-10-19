@@ -1,13 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import useFirebase from '../../hooks/useFirebase';
+import useAuth from '../../hooks/useAuth';
 import './Header.css';
 
 const Header = () => {
-    const {user, logout} = useFirebase();
+    const {user, logout} = useAuth();
     return (
-        <div class="bg-light">
-            <nav class="navbar navbar-light">
+        <div >
+            <nav className="header">
                 <div class="container-fluid navbar">
                 <a class="navbar-brand"><h2 className="logo">Mediko</h2></a>
                 <form class="d-flex">
@@ -15,6 +15,7 @@ const Header = () => {
                     <Link className="nav-anchor" to="/departments">Departments</Link>
                     <Link className="nav-anchor" to="/register">Register</Link>
                     <Link className="nav-anchor" to="/login">Log In</Link>
+                    <Link className="nav-anchor" to="/shipping">shipping</Link>
                     { user.displayName && <button onClick={logout}>Log Out</button> }
                     <span>{user.displayName}</span>
                 </form>
