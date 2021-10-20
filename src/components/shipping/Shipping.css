@@ -1,0 +1,35 @@
+
+
+.detail-area{
+
+}
+.detail-page{
+    background-color: #0176D5;
+    padding: 20px;
+}
+.detail-page-text{
+    width: 80%;
+    margin: auto;
+    text-align: left;
+    color: #ffffff;
+}
+
+.text-area{
+    margin: 15px;
+}
+.detail-text{
+    width: 40%;
+    margin: auto;
+    background-color: teal;
+    color: #ffffff;
+    border-radius: 15px;
+    text-align: left;
+    padding: 25px;
+}
+
+@media only screen and (max-width: 767px) {
+    .detail-text{
+        width: 300px;
+        padding: 10px;
+    }
+}

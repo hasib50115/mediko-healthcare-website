@@ -11,7 +11,7 @@ const Service = (props) => {
                 <div>
                     <p><b>{name}</b></p>
                     <p className="description">{description}</p>
-                    <Link className="nav-anchor" to="/shipping"><button>Details</button></Link>
+                    <Link className="nav-anchor" to="/detail"><button>Details</button></Link>
                     
                 </div>
             </div>
