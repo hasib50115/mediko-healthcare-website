@@ -6,7 +6,7 @@ import Doctor from '../Doctor/Doctor';
 const AboutUs = () => {
     const [doctors, setDoctors] = useState([]);
     useEffect(()=>{
-        fetch('./doctors.JSON')
+        fetch('./doctors.json')
         .then(res => res.json())
         .then(data => setDoctors(data))
       }, []);

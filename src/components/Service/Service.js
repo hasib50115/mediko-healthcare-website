@@ -9,7 +9,7 @@ const Service = (props) => {
                 <img src={img} alt="" />
                 <div>
                     <p><b>{name}</b></p>
-                    <p>{description}</p>
+                    <p className="description">{description}</p>
                     <button>Details</button>
                 </div>
             </div>
