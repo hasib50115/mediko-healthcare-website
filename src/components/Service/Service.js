@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Service.css';
 
 const Service = (props) => {
@@ -10,7 +11,8 @@ const Service = (props) => {
                 <div>
                     <p><b>{name}</b></p>
                     <p className="description">{description}</p>
-                    <button>Details</button>
+                    <Link className="nav-anchor" to="/shipping"><button>Details</button></Link>
+                    
                 </div>
             </div>
         </div>

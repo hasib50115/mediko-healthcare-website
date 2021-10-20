@@ -9,6 +9,8 @@ const Login = () => {
             <h2>Please Log In</h2>
             <button class="btn btn-primary" onClick={signInUsingGoogle}>Google Sign In</button>
             <br/>
+            <button class="btn btn-primary" onClick={signInUsingGoogle}>Sign with Email</button>
+            <br/>
             <Link class="btn btn-primary" to="/register">New User?</Link>
         </div>
     );

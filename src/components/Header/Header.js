@@ -15,8 +15,7 @@ const Header = () => {
                     <Link className="nav-anchor" to="/departments">Departments</Link>
                     <Link className="nav-anchor" to="/aboutus">About Us</Link>
                     <Link className="nav-anchor" to="/register">Register</Link>
-                    <Link className="nav-anchor" to="/login">Log In</Link>                    
-                    <Link className="nav-anchor" to="/shipping">shipping</Link>
+                    <Link className="nav-anchor" to="/login">Log In</Link>
                     { user.displayName && <button onClick={logout}>Log Out</button> }
                     <span>{user.displayName}</span>
                 </form>
