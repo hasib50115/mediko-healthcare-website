@@ -1,5 +1,4 @@
-# Live Site:
-live site will be here
+# Live Site: https://fir-test-auth-8ad4f.web.app/home
 
 # Site name: Mediko
 
