@@ -11,5 +11,8 @@ live site will be here
 * At the bottom, the footer section you will get our address and special offer and so on.
 * let's do a visit from the live site link on the above.
 
+## Description: 
+Mediko is a hospital website that located in Dhaka, Bangladesh. To build this website we have used the javaScript as main language with additional 'react' front-end technology or framework. We have tried to build the site user friendly as possible as we did, in the near future we will add more features by experiencing by our users or customers. Stay safe. Thanks for reading this. 
+
 
 
