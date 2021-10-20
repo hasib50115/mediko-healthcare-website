@@ -52,11 +52,93 @@
     justify-content: center;
 }
 
+/* how we do it styles  */
+.our-process-area{
+    margin-top: 50px;
+    margin-bottom: 0px;
+    background-color: #0176D5;
+    color: #ffffff;
+}
+.text{
+    width: 80%;
+    margin: auto;
+    text-align: left;
+}
+.brief-text{
+    width: 350px;
+    text-align: justify;
+}
+
+span{
+    color: #ADC624;
+}
+.cards{    
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+}
+.text-card{
+    padding: 20px;
+    margin: 50px;
+    
+}
+/* message section styles  */
+.form-area{
+    width: 400px;
+    margin: auto;
+}
+.message-section{
+    background-color: #F1F1F1;
+    padding: 50px;
+}
+.message-text{
+    width: 500px;
+    text-align: left;
+}
+.message-text h2{
+    color: #0176D5;
+}
+/* .map-area{
+    width: 400px;
+    margin: auto;
+} */
+
+@media only screen and (max-width: 767px) {
+    .form-area{
+        width: 80%;
+        margin: auto;
+    }
+
+}
+
 /* Mobile Device Responsiveness  */
 @media only screen and (max-width: 767px) {
     .services-cards{
         grid-template-columns: auto;
        
+    }
+    .text-details{
+        width: 80%;
+        margin: auto;
+
+    }
+    .details{
+        width: 200px;        
+    }
+    .cards{    
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .text-card{
+        text-align: left;
+        width: 300px;
+        margin: auto;
+        padding: 0px;
+
+    }
+    .brief-text{
+        width: 95%;
+        text-align: left;
     }
 
 }

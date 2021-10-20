@@ -13,8 +13,9 @@ const Header = () => {
                 <form class="d-flex">
                     <Link className="nav-anchor" to="/home">Home</Link>
                     <Link className="nav-anchor" to="/departments">Departments</Link>
+                    <Link className="nav-anchor" to="/aboutus">About Us</Link>
                     <Link className="nav-anchor" to="/register">Register</Link>
-                    <Link className="nav-anchor" to="/login">Log In</Link>
+                    <Link className="nav-anchor" to="/login">Log In</Link>                    
                     <Link className="nav-anchor" to="/shipping">shipping</Link>
                     { user.displayName && <button onClick={logout}>Log Out</button> }
                     <span>{user.displayName}</span>

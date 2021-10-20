@@ -1,0 +1,55 @@
+
+.about-section{
+    background-color: #3390DD;
+    padding: 20px;  
+    text-align: left;  
+}
+.about-container{
+    width: 80%;
+    margin: auto;
+    color: #ffffff;
+}
+.founder-area{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 15px 0px 15px 0px;
+}
+.founder{
+    width: 550px;
+    text-align: justify;
+    position: relative;
+    top: 150px;
+}
+.founder-img img{
+    width: 500px;
+    height: auto;
+}
+.instructors{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+}
+
+
+@media only screen and (max-width: 767px) {
+    .founder-area{
+        display: flex;
+        flex-direction: column;
+    }
+    .founder{
+        width: 95%;
+        text-align: justify;
+        position: relative;
+        top: 0px;
+        margin: auto;
+        padding: 10px;
+    }
+    .founder-img img{
+        width: 80%;
+        height: auto;
+
+    }
+    .instructors{
+        grid-template-columns: auto;
+    }
+  }

@@ -44,6 +44,65 @@ const Homepage = () => {
                 }
                 </div>
             </div>
+            <div className="our-process-area">
+                <div className="text">
+                    <p>How we do it?</p>
+                    <h1>Our <span>process</span></h1>
+                    <div className="brief-text">
+                        <p>Objectively integrate enterprise-wide strategic theme areas with functionalized infrastructures. Interactively productize premium technologies whereas interdependent quality vectors.</p>
+                    </div>
+                </div>
+                <div>
+                    <div className="cards">
+                        <div className="text-card">
+                            <h6>What we do</h6>
+                            <h2><span>We care about you</span></h2>
+                            <p className="details brief-text">WeCare is dedicated in providing the highest quality compassionate and effective clinical care to those who cannot attain modern specialized health care services, especially in this region and have to go miles for better treatment.</p>
+                        </div>
+                        <div className="text-card">
+                            <h6>We give you</h6>
+                            <h2><span>Medical advices</span></h2>
+                            <p className="brief-text">WeCare is dedicated in providing the highest quality compassionate and effective clinical care to those who cannot attain modern specialized health care services, especially in this region and have to go miles for better treatment.</p>
+                        </div>
+                        <div className="text-card">
+                            <h6>We offer professional</h6>
+                            <h2><span>Medical services</span></h2>
+                            <p className="brief-text">WeCare is dedicated in providing the highest quality compassionate and effective clinical care to those who cannot attain modern specialized health care services, especially in this region and have to go miles for better treatment.</p>
+                        </div>
+                    </div>
+
+                    
+                </div>
+            </div>
+
+            <div className="newsletter-area">
+                <div className="message-section">
+
+                    <div>
+                        <div className="message-text">
+                        <p>Have any queries?</p>
+                        <h2>Submit your message below.</h2>
+                        </div>
+                        <div className="form-area">
+                            <form className="form">
+                                <div class="mb-3">
+                                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"/>
+                                </div>
+
+                                <div class="mb-3">
+                                    <textarea class="form-control is-invalid" id="validationTextarea" placeholder="Required example textarea" required></textarea>
+                                    <div class="invalid-feedback">
+                                        Please enter a message in the textarea.
+                                    </div>
+                                </div>
+
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
 
 

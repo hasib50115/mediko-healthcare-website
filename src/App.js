@@ -10,6 +10,8 @@ import Login from './components/Login/Login';
 import AuthProvider from './context/AuthProvider';
 import Shipping from './components/shipping/Shipping';
 import PrivateRoute from './components/PrivateRoute/PrivateRoute';
+import AboutUs from './components/AboutUs/AboutUs';
+import NotFound from './components/NotFound/NotFound';
 
 function App() {
   return (
@@ -33,9 +35,18 @@ function App() {
             <Route path="/login">
               <Login></Login>
             </Route>
+            <Route path="/aboutus">
+              <AboutUs></AboutUs>
+            </Route>
             <PrivateRoute path="/shipping">
               <Shipping></Shipping>
             </PrivateRoute>
+            <Route path="*">
+              <NotFound></NotFound>
+            </Route>
+            <Route>
+              <NotFound></NotFound>
+            </Route>
           </Switch>
           <Footer></Footer>
         </BrowserRouter>
