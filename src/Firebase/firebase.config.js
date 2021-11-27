@@ -1,10 +1,10 @@
 const firebaseConfig = {
-    apiKey: "AIzaSyAoWxnWRnhIyvFOtrj1m1pnIOGtDXRKY9I",
-    authDomain: "fir-test-auth-8ad4f.firebaseapp.com",
-    projectId: "fir-test-auth-8ad4f",
-    storageBucket: "fir-test-auth-8ad4f.appspot.com",
-    messagingSenderId: "205790362477",
-    appId: "1:205790362477:web:d6a485d4238025c1bc3864"
+  apiKey: "AIzaSyC4YghcegJo_ZJBiGb4zKH11o-kQnjMhfg",
+  authDomain: "mediko-healthcare-website.firebaseapp.com",
+  projectId: "mediko-healthcare-website",
+  storageBucket: "mediko-healthcare-website.appspot.com",
+  messagingSenderId: "571050782614",
+  appId: "1:571050782614:web:1f6ff6bac58353b2def7b7"
   };
 
   export default firebaseConfig;
